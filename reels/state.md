@@ -18,6 +18,10 @@ Scan dataset (2026-10-25): HhEdMi5bh58e6ymKe
 - Reel 4 DONE: garyvee DevLYE2jbh6 -> reel4_final.mp4 (52s). Pause 7.2s on 'Only 2 things'. EL flow 4OheBHsGxQgteyATzIYd. Not in Metricool yet.
 - Reel 5 DONE: garyvee DesHrTfEvMb -> reel5_final.mp4 (56s). Pause 6.0s on 'don't realize'. EL flow 2Xq9q3wJb9ZUHSkLU69q. Not in Metricool yet.
 - Original queue exhausted -> next: fresh Apify scan with a new creator set.
+- Reel 6 PREPPED, NOT BUILT (ElevenLabs out of credits: 557/40000 left): hormozi De2SR0oksg7 'No one wants to buy AI'. Pause 9.8s after 'getting back to all of your leads?'. EL flow toBmo6UoGeun5qXTfQDy.
+  Principles: contrarian hook / sell the pain not the product / anchoring ($5k a month lost vs $5k one time).
+  VO script: Pause. 350K views, 70x Hormozi's recent normal... (see EL flow prompt)
+- Remaining outliers: hormozi De16RsgEvZD (85x), ryanserhant DeZ5XKPikpW (44x), DekCWndxqmQ (44x)
 
 ## Music (user request)
 Trending phonk from Patrick Jane edits: PROS BANDIDO, OMNIUM, ABYS5, ETERNITY, EXITIUM, Pyro (slowed) ZERTAL.

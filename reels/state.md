@@ -67,3 +67,11 @@ Credit: @garyvee
 Send this to someone who needs to slow down. Follow @admates.agency for a new breakdown every day.
 Credit: @garyvee
 #marketing #motivation #psychology #contentstrategy #socialmediamarketing
+
+## Scheduled in Metricool (2026-10-25, IG Reels, autoPublish, NO audio: IG audio catalog 403, account not Business+FB Page)
+- 10:00 ET reel2 Serhant (post 405497102)
+- 11:00 ET reel1 Hormozi (405497124)
+- 12:00 ET reel3 Martell (405497142)
+- 13:00 ET reel4 GaryVee parenting (405497170)
+- 14:00 ET reel5 GaryVee age 23 (405497199)
+Media hosting: litterbox (72h temp) -> Metricool copied to static.metricool.com

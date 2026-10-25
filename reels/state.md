@@ -15,6 +15,7 @@ Scan dataset (2026-10-25): HhEdMi5bh58e6ymKe
 
 - Reel 2 DONE: ryanserhant De2esAVifwW -> reel2_final.mp4 (58s). Pause 6.5s on "Nvm" typing dots. EL flow OhqRHeaJ4wFY44FUp1Mw. Not in Metricool yet.
 - Reel 3 DONE: danmartell DexM0OAhW7O -> reel3_final.mp4 (55s). Pause 3.9s on kid 'SWEET'. EL flow LmJdIa7nzo6vGnH8cH8V. Not in Metricool yet.
+- Reel 4 DONE: garyvee DevLYE2jbh6 -> reel4_final.mp4 (52s). Pause 7.2s on 'Only 2 things'. EL flow 4OheBHsGxQgteyATzIYd. Not in Metricool yet.
 
 ## Music (user request)
 Trending phonk from Patrick Jane edits: PROS BANDIDO, OMNIUM, ABYS5, ETERNITY, EXITIUM, Pyro (slowed) ZERTAL.
@@ -46,3 +47,10 @@ A kid on crutches asked to rev a Ferrari. 1.3M people watched what happened next
 Follow @admates.agency for a new breakdown every day.
 Credit: @danmartell
 #marketing #storytelling #psychology #contentstrategy #socialmediamarketing
+
+## Caption reel 4
+5.2M views on a parenting question. Not one word about business. Here's the psychology 👇
+1) Protective instinct  2) The numbered promise  3) Similarity
+Follow @admates.agency for a new breakdown every day.
+Credit: @garyvee
+#marketing #hooks #psychology #contentstrategy #socialmediamarketing

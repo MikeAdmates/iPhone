@@ -14,6 +14,7 @@ Scan dataset (2026-10-25): HhEdMi5bh58e6ymKe
 - Reel 1 DONE: hormozi Ddii_P4BHns -> reel1_final.mp4 (66s). Pause at 15.4s. EL flow NjfLA6ujhL5jf59kRMzl. NOT in Metricool yet (needs public video URL; catbox upload blocked by permissions).
 
 - Reel 2 DONE: ryanserhant De2esAVifwW -> reel2_final.mp4 (58s). Pause 6.5s on "Nvm" typing dots. EL flow OhqRHeaJ4wFY44FUp1Mw. Not in Metricool yet.
+- Reel 3 DONE: danmartell DexM0OAhW7O -> reel3_final.mp4 (55s). Pause 3.9s on kid 'SWEET'. EL flow LmJdIa7nzo6vGnH8cH8V. Not in Metricool yet.
 
 ## Music (user request)
 Trending phonk from Patrick Jane edits: PROS BANDIDO, OMNIUM, ABYS5, ETERNITY, EXITIUM, Pyro (slowed) ZERTAL.
@@ -38,3 +39,10 @@ Credit: @hormozi
 Tag your Philip. Follow @admates.agency for a new breakdown every day.
 Credit: @ryanserhant
 #marketing #contentcreation #psychology #genz #socialmediamarketing
+
+## Caption reel 3
+A kid on crutches asked to rev a Ferrari. 1.3M people watched what happened next. Here's the psychology 👇
+1) The underdog effect  2) Moral elevation  3) The peak-end rule
+Follow @admates.agency for a new breakdown every day.
+Credit: @danmartell
+#marketing #storytelling #psychology #contentstrategy #socialmediamarketing

@@ -13,6 +13,12 @@ Scan dataset (2026-10-25): HhEdMi5bh58e6ymKe
 ## Done
 - Reel 1 DONE: hormozi Ddii_P4BHns -> reel1_final.mp4 (66s). Pause at 15.4s. EL flow NjfLA6ujhL5jf59kRMzl. NOT in Metricool yet (needs public video URL; catbox upload blocked by permissions).
 
+- Reel 2 DONE: ryanserhant De2esAVifwW -> reel2_final.mp4 (58s). Pause 6.5s on "Nvm" typing dots. EL flow OhqRHeaJ4wFY44FUp1Mw. Not in Metricool yet.
+
+## Music (user request)
+Trending phonk from Patrick Jane edits: PROS BANDIDO, OMNIUM, ABYS5, ETERNITY, EXITIUM, Pyro (slowed) ZERTAL.
+Attach via Metricool instagramData.audioConfiguration (audioId search term, audioVolume ~25, videoVolume 100). Requires IG Business + FB page.
+
 ## Pipeline notes
 - hook: transcribe first 25s (EL scribe), pause right after the hook question
 - VO: eleven_v4, MikeyD, take timings via ffmpeg silencedetect -30dB d=0.25
@@ -25,3 +31,10 @@ This clip did 4.2M views (870x Hormozi's normal). Here's the psychology of why ð
 Steal this for your next hook. Follow @admates.agency for a new breakdown every day.
 Credit: @hormozi
 #marketing #hooks #contentstrategy #psychology #socialmediamarketing
+
+## Caption reel 2
+7.5M views. Zero words of dialogue. Here's the psychology ðŸ‘‡
+1) Tribal identity  2) Benign violation  3) The curiosity gap
+Tag your Philip. Follow @admates.agency for a new breakdown every day.
+Credit: @ryanserhant
+#marketing #contentcreation #psychology #genz #socialmediamarketing

@@ -1,0 +1,112 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<style>
+  @font-face { font-family: Inter; src: local("Inter Display Black"), local("Inter Black"); font-weight: 900; }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body { width: 1080px; height: 1920px; overflow: hidden; background: #0b0b0f; font-family: "Inter Display", Inter, sans-serif; color: #fff; }
+  #bg { position: absolute; inset: 0; background: url(../freeze.jpg) center/cover; }
+  #dim { position: absolute; inset: 0; background: linear-gradient(180deg, rgba(8,8,14,.55), rgba(8,8,14,.92)); }
+  .el { position: absolute; left: 0; right: 0; text-align: center; opacity: 0; will-change: transform, opacity; }
+  .tag { top: 90px; font-size: 34px; font-weight: 700; letter-spacing: 6px; color: #ffd84d; }
+  .pause { top: 560px; }
+  .pause .icon { display: inline-flex; gap: 34px; padding: 70px 82px; border-radius: 44px; background: rgba(255,255,255,.12); border: 4px solid rgba(255,255,255,.35); }
+  .pause .icon i { width: 46px; height: 170px; background: #fff; border-radius: 10px; display: block; }
+  .huge { font-size: 200px; font-weight: 900; letter-spacing: -6px; line-height: 1; }
+  .big { font-size: 96px; font-weight: 900; line-height: 1.05; letter-spacing: -2px; padding: 0 70px; }
+  .mid { font-size: 64px; font-weight: 800; line-height: 1.15; padding: 0 80px; }
+  .small { font-size: 46px; font-weight: 600; line-height: 1.3; padding: 0 90px; color: #e6e6ef; }
+  .yel { color: #ffd84d; } .red { color: #ff5a5a; } .grn { color: #46e39a; }
+  .num { top: 330px; font-size: 300px; font-weight: 900; color: #ffd84d; line-height: 1; }
+  .ptitle { top: 660px; }
+  .chip { display: inline-block; padding: 22px 40px; margin: 12px; border-radius: 999px; background: #ffd84d; color: #111; font-size: 50px; font-weight: 800; }
+  .quote { font-size: 74px; font-weight: 800; font-style: italic; padding: 40px 60px; margin: 0 70px; border-left: 14px solid #ffd84d; background: rgba(255,255,255,.08); border-radius: 0 28px 28px 0; text-align: left; line-height: 1.15; }
+  .bars { display: flex; justify-content: center; align-items: flex-end; gap: 90px; height: 520px; }
+  .bar { width: 230px; border-radius: 26px 26px 0 0; position: relative; }
+  .bar span { position: absolute; bottom: -90px; left: 0; right: 0; font-size: 50px; font-weight: 800; }
+  .bar b { position: absolute; top: -90px; left: 0; right: 0; font-size: 64px; font-weight: 900; }
+  .ring { width: 420px; height: 420px; margin: 0 auto; }
+  .check { font-size: 78px; font-weight: 900; text-align: left; padding-left: 170px; }
+  .check em { font-style: normal; color: #46e39a; margin-right: 30px; }
+  #dots { position: absolute; bottom: 120px; left: 0; right: 0; display: flex; justify-content: center; gap: 22px; }
+  #dots div { width: 22px; height: 22px; border-radius: 50%; background: rgba(255,255,255,.3); }
+  #dots div.on { background: #ffd84d; width: 70px; border-radius: 11px; }
+  .brand { bottom: 60px; font-size: 32px; font-weight: 700; color: rgba(255,255,255,.65); opacity: 1; }
+</style></head>
+<body>
+<div id="bg"></div><div id="dim"></div>
+<div class="el tag" data-in="0" data-out="999" data-a="fade">TRENDING BREAKDOWN</div>
+
+<!-- intro -->
+<div class="el pause" data-in="0" data-out="2.1" data-a="pop"><div class="icon"><i></i><i></i></div></div>
+<div class="el big" style="top:1000px" data-in="0.6" data-out="2.1" data-a="up">STOP RIGHT THERE.</div>
+<div class="el" style="top:560px" data-in="2.2" data-out="10.2" data-a="pop"><div class="huge yel" id="views">0</div><div class="mid" style="margin-top:20px">VIEWS</div></div>
+<div class="el big" style="top:980px" data-in="5.1" data-out="10.2" data-a="up"><span class="red" id="mult">0x</span> his normal</div>
+<div class="el mid" style="top:1300px" data-in="7.97" data-out="10.2" data-a="up">Here's why it worked 👇<br><span class="yel">3 principles</span></div>
+
+<!-- 1 -->
+<div class="el num" data-in="10.32" data-out="24.3" data-a="pop">1</div>
+<div class="el big ptitle" data-in="11.0" data-out="24.3" data-a="up">THE SPECIFIC<br>STRANGER</div>
+<div class="el" style="top:960px" data-in="12.66" data-out="17.2" data-a="up"><span class="chip">real owner</span></div>
+<div class="el" style="top:1080px" data-in="13.5" data-out="17.2" data-a="up"><span class="chip">real city</span></div>
+<div class="el" style="top:1200px" data-in="14.3" data-out="17.2" data-a="up"><span class="chip">real number</span></div>
+<div class="el huge grn" style="top:1360px" data-in="15.54" data-out="17.2" data-a="pop">$1.2M</div>
+<div class="el mid" style="top:1020px" data-in="17.3" data-out="24.3" data-a="up">Specificity <span class="yel">=</span> instant trust</div>
+<div class="el small" style="top:1220px" data-in="20.9" data-out="24.3" data-a="up">Every owner who's lost an employee<br>sees <span class="yel">themselves</span> 🪞</div>
+
+<!-- 2 -->
+<div class="el num" data-in="24.4" data-out="33.8" data-a="pop">2</div>
+<div class="el big ptitle" data-in="25.06" data-out="33.8" data-a="up">THE OPEN LOOP</div>
+<div class="el" style="top:880px" data-in="26.2" data-out="29.6" data-a="up"><div class="quote">"So what do I do?"</div></div>
+<div class="el" style="top:860px" data-in="27.6" data-out="33.8" data-a="fade"><svg class="ring" viewBox="0 0 100 100"><circle cx="50" cy="50" r="42" fill="none" stroke="rgba(255,255,255,.15)" stroke-width="8"/><circle id="loop" cx="50" cy="50" r="42" fill="none" stroke="#ffd84d" stroke-width="8" stroke-linecap="round" stroke-dasharray="264" stroke-dashoffset="264" transform="rotate(-90 50 50)"/><text x="50" y="58" text-anchor="middle" font-size="22" font-weight="900" fill="#fff">?</text></svg></div>
+<div class="el mid" style="top:1330px" data-in="29.7" data-out="33.8" data-a="up">The <span class="yel">Zeigarnik</span> effect</div>
+<div class="el small" style="top:1480px" data-in="31.18" data-out="33.8" data-a="up">You can't scroll until it closes</div>
+
+<!-- 3 -->
+<div class="el num" data-in="33.91" data-out="43.3" data-a="pop">3</div>
+<div class="el big ptitle" data-in="34.57" data-out="43.3" data-a="up">LOSS AVERSION</div>
+<div class="el" style="top:880px" data-in="35.7" data-out="37.8" data-a="up"><div class="quote">"They take the book of business and dip."</div></div>
+<div class="el" style="top:880px" data-in="37.88" data-out="43.3" data-a="fade"><div class="bars"><div class="bar" id="barLoss" style="background:#ff5a5a;height:0"><b class="red">2x</b><span>LOSS</span></div><div class="bar" id="barGain" style="background:#46e39a;height:0"><b class="grn">1x</b><span>GAIN</span></div></div></div>
+<div class="el big" style="top:1560px" data-in="41.2" data-out="43.3" data-a="pop"><span class="red">FEAR</span> &gt; <span class="grn">HOPE</span></div>
+
+<!-- outro -->
+<div class="el check" style="top:520px" data-in="43.43" data-out="999" data-a="left"><em>✓</em>Specific person</div>
+<div class="el check" style="top:680px" data-in="44.66" data-out="999" data-a="left"><em>✓</em>Open loop</div>
+<div class="el check" style="top:840px" data-in="45.5" data-out="999" data-a="left"><em>✓</em>Fear of loss</div>
+<div class="el big yel" style="top:1080px" data-in="46.5" data-out="999" data-a="pop">STEAL THIS<br>FOR YOUR HOOK</div>
+<div class="el mid" style="top:1400px" data-in="48.26" data-out="999" data-a="up">Follow <span class="yel">@admates.agency</span></div>
+
+<div id="dots"><div></div><div></div><div></div></div>
+<div class="el brand">Source: @hormozi · breakdown by AdMates</div>
+
+<script>
+const els=[...document.querySelectorAll('.el[data-in]')];
+const ease=x=>1-Math.pow(1-Math.min(Math.max(x,0),1),3);
+const back=x=>{x=Math.min(Math.max(x,0),1);const c=1.70158;return 1+(c+1)*Math.pow(x-1,3)+c*Math.pow(x-1,2);};
+window.render=function(t){
+  // background: sharp freeze, then blur in
+  const b=ease((t-1.2)/1.2);
+  document.getElementById('bg').style.filter=`blur(${b*22}px) brightness(${1-b*0.35})`;
+  document.getElementById('bg').style.transform=`scale(${1.05+t*0.002})`;
+  document.getElementById('dim').style.opacity=0.35+b*0.65;
+  for(const e of els){
+    const i=+e.dataset.in,o=+e.dataset.out,a=e.dataset.a;
+    const pin=(t-i)/0.45, pout=(t-o)/0.3;
+    let op=ease(pin)*(1-ease(pout)); if(t<i) op=0;
+    let tr='';
+    if(a==='up') tr=`translateY(${(1-ease(pin))*60}px)`;
+    if(a==='left') tr=`translateX(${(1-ease(pin))*-120}px)`;
+    if(a==='pop') tr=`scale(${t<i?0.6:0.6+0.4*back(pin)})`;
+    e.style.opacity=op; e.style.transform=tr;
+  }
+  const v=ease((t-2.2)/1.8);
+  document.getElementById('views').textContent=(4.2*v).toFixed(1)+'M';
+  document.getElementById('mult').textContent=Math.round(870*ease((t-5.1)/1.4))+'x';
+  document.getElementById('loop').style.strokeDashoffset=264*(1-0.85*ease((t-27.8)/2.5));
+  document.getElementById('barLoss').style.height=420*ease((t-38.2)/0.9)+'px';
+  document.getElementById('barGain').style.height=210*ease((t-38.6)/0.9)+'px';
+  const s=t<10.3?-1:t<24.4?0:t<33.9?1:t<43.4?2:3;
+  [...document.querySelectorAll('#dots div')].forEach((d,k)=>d.className=(k===s||s===3)?'on':'');
+};
+render(0);
+</script>
+</body></html>

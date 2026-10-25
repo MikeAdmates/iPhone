@@ -1,0 +1,7 @@
+# media and scrape dumps stay local (large / third-party footage)
+*.mp4
+*.mp3
+*.jpg
+*.png
+scan.json
+url.txt

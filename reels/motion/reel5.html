@@ -1,0 +1,121 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<style>
+  @font-face { font-family: Inter; src: local("Inter Display Black"), local("Inter Black"); font-weight: 900; }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body { width: 1080px; height: 1920px; overflow: hidden; background: #0b0b0f; font-family: "Inter Display", Inter, sans-serif; color: #fff; }
+  #bg { position: absolute; inset: 0; background: url(../freeze5.jpg) center/cover; }
+  #dim { position: absolute; inset: 0; background: linear-gradient(180deg, rgba(8,8,14,.55), rgba(8,8,14,.92)); }
+  .el { position: absolute; left: 0; right: 0; text-align: center; opacity: 0; will-change: transform, opacity; }
+  .tag { top: 90px; font-size: 34px; font-weight: 700; letter-spacing: 6px; color: #ffd84d; }
+  .pause { top: 560px; }
+  .pause .icon { display: inline-flex; gap: 34px; padding: 70px 82px; border-radius: 44px; background: rgba(255,255,255,.12); border: 4px solid rgba(255,255,255,.35); }
+  .pause .icon i { width: 46px; height: 170px; background: #fff; border-radius: 10px; display: block; }
+  .huge { font-size: 200px; font-weight: 900; letter-spacing: -6px; line-height: 1; }
+  .big { font-size: 96px; font-weight: 900; line-height: 1.05; letter-spacing: -2px; padding: 0 70px; }
+  .mid { font-size: 64px; font-weight: 800; line-height: 1.15; padding: 0 80px; }
+  .small { font-size: 46px; font-weight: 600; line-height: 1.3; padding: 0 90px; color: #e6e6ef; }
+  .yel { color: #ffd84d; } .red { color: #ff5a5a; } .grn { color: #46e39a; }
+  .num { top: 330px; font-size: 300px; font-weight: 900; color: #ffd84d; line-height: 1; }
+  .ptitle { top: 660px; }
+  .chip { display: inline-block; padding: 22px 40px; margin: 12px; border-radius: 999px; background: #ffd84d; color: #111; font-size: 50px; font-weight: 800; }
+  .quote { font-size: 74px; font-weight: 800; font-style: italic; padding: 40px 60px; margin: 0 70px; border-left: 14px solid #ffd84d; background: rgba(255,255,255,.08); border-radius: 0 28px 28px 0; text-align: left; line-height: 1.15; }
+  .bars { display: flex; justify-content: center; align-items: flex-end; gap: 90px; height: 520px; }
+  .bar { width: 230px; border-radius: 26px 26px 0 0; position: relative; }
+  .bar span { position: absolute; bottom: -90px; left: 0; right: 0; font-size: 50px; font-weight: 800; }
+  .bar b { position: absolute; top: -90px; left: 0; right: 0; font-size: 64px; font-weight: 900; }
+  .ring { width: 420px; height: 420px; margin: 0 auto; }
+  .check { font-size: 78px; font-weight: 900; text-align: left; padding-left: 170px; }
+  .check em { font-style: normal; color: #46e39a; margin-right: 30px; }
+  #dots { position: absolute; bottom: 120px; left: 0; right: 0; display: flex; justify-content: center; gap: 22px; }
+  #dots div { width: 22px; height: 22px; border-radius: 50%; background: rgba(255,255,255,.3); }
+  #dots div.on { background: #ffd84d; width: 70px; border-radius: 11px; }
+  .brand { bottom: 60px; font-size: 32px; font-weight: 700; color: rgba(255,255,255,.65); opacity: 1; }
+
+  .meme { display:inline-block; font-size:150px; }
+  .chat { display:inline-block; background:#2a2a35; border-radius:40px; padding:26px 44px; font-size:58px; font-weight:700; margin:10px; }
+  .dotsb { display:inline-block; background:#2a2a35; border-radius:40px; padding:30px 40px; }
+  .dotsb i { display:inline-block; width:26px; height:26px; margin:0 8px; border-radius:50%; background:#aaa; }
+  .vs { display:flex; justify-content:center; align-items:center; gap:50px; }
+  .vs div { width:330px; padding:40px 0; border-radius:30px; background:rgba(255,255,255,.1); font-size:54px; font-weight:800; }
+
+  .meter { width:760px; height:60px; margin:0 auto; border-radius:30px; background:rgba(255,255,255,.12); overflow:hidden; }
+  .meter i { display:block; height:100%; width:0; background:linear-gradient(90deg,#ffd84d,#ff5a5a); border-radius:30px; }
+  .graph { width:860px; height:420px; margin:0 auto; }
+
+  .shield { font-size:190px; }
+  .two { display:flex; justify-content:center; gap:40px; }
+  .two div { width:220px; height:220px; border-radius:40px; border:6px dashed rgba(255,216,77,.7); font-size:130px; font-weight:900; color:#ffd84d; display:flex; align-items:center; justify-content:center; }
+  .two div.fill { background:#ffd84d; color:#111; border-style:solid; }
+
+  .ageb { display:inline-block; font-size:180px; font-weight:900; color:#111; background:#ffd84d; padding:10px 60px; border-radius:40px; }
+  .gauge { width:760px; height:70px; margin:0 auto; border-radius:35px; background:rgba(255,255,255,.12); overflow:hidden; position:relative; }
+  .gauge i { position:absolute; left:0; top:0; bottom:0; border-radius:35px; }
+</style></head>
+<body>
+<div id="bg"></div><div id="dim"></div>
+<div class="el tag" data-in="0" data-out="999" data-a="fade">TRENDING BREAKDOWN</div>
+
+<div class="el pause" data-in="0" data-out="0.9" data-a="pop"><div class="icon"><i></i><i></i></div></div>
+<div class="el" style="top:480px" data-in="1.07" data-out="9.2" data-a="pop"><div class="huge yel" id="views">0</div><div class="mid" style="margin-top:20px">VIEWS</div></div>
+<div class="el big" style="top:900px" data-in="3.51" data-out="9.2" data-a="up"><span class="red" id="mult">0x</span> his normal</div>
+<div class="el mid" style="top:1130px" data-in="5.56" data-out="9.2" data-a="up">👟 sneakers + a hallway</div>
+<div class="el mid" style="top:1300px" data-in="8.13" data-out="9.2" data-a="up">Here's why 👇</div>
+
+<div class="el num" data-in="9.42" data-out="19.8" data-a="pop">1</div>
+<div class="el big ptitle" data-in="10.2" data-out="19.8" data-a="up">SELF-REFERENCE<br>EFFECT</div>
+<div class="el mid" style="top:930px" data-in="11.84" data-out="19.8" data-a="up">"How old are you?"</div>
+<div class="el" style="top:1060px" data-in="12.73" data-out="19.8" data-a="pop"><span class="ageb">23</span></div>
+<div class="el mid" style="top:1340px" data-in="13.67" data-out="19.8" data-a="up">Every 20-something just<br>heard <span class="yel">their own age</span></div>
+<div class="el small" style="top:1560px" data-in="16.79" data-out="19.8" data-a="up">Your brain locks onto anything about <b>you</b></div>
+
+<div class="el num" data-in="19.92" data-out="30.9" data-a="pop">2</div>
+<div class="el big ptitle" data-in="20.57" data-out="30.9" data-a="up">RELIEF</div>
+<div class="el mid" style="top:860px" data-in="21.53" data-out="30.9" data-a="up">Internet: <span class="red">"HURRY UP"</span><br>Gary: <span class="grn">"You've got 10 years"</span></div>
+<div class="el" style="top:1140px" data-in="23.95" data-out="30.9" data-a="fade"><div class="small" style="margin-bottom:20px">ANXIETY</div><div class="gauge"><i id="anx"></i></div></div>
+<div class="el mid" style="top:1380px" data-in="26.16" data-out="30.9" data-a="up">→ you <span class="yel">save</span> it 🔖</div>
+<div class="el mid" style="top:1520px" data-in="28.82" data-out="30.9" data-a="up">→ you <span class="yel">send</span> it 📲</div>
+
+<div class="el num" data-in="30.99" data-out="43.2" data-a="pop">3</div>
+<div class="el big ptitle" data-in="31.61" data-out="43.2" data-a="up">HIGH AROUSAL</div>
+<div class="el" style="top:900px" data-in="32.83" data-out="35.5" data-a="pop"><div class="quote">"Don't yes me."</div></div>
+<div class="el mid" style="top:900px" data-in="35.66" data-out="43.2" data-a="up">Intensity ⚡ → emotion → <span class="yel">shares</span></div>
+<div class="el" style="top:1120px" data-in="39.66" data-out="43.2" data-a="up"><div class="vs" style="display:flex;justify-content:center;gap:40px"><div style="width:360px;padding:36px 0;border-radius:30px;background:rgba(255,255,255,.08);font-size:48px;font-weight:800;color:#aaa">😐 Calm advice<br><span style="color:#ff5a5a">flops</span></div><div style="width:360px;padding:36px 0;border-radius:30px;background:rgba(255,216,77,.16);font-size:48px;font-weight:800">🔥 Passionate<br><span class="grn">goes viral</span></div></div></div>
+
+<div class="el check" style="top:520px" data-in="43.33" data-out="999" data-a="left"><em>✓</em>Self-reference</div>
+<div class="el check" style="top:680px" data-in="44.1" data-out="999" data-a="left"><em>✓</em>Relief</div>
+<div class="el check" style="top:840px" data-in="44.8" data-out="999" data-a="left"><em>✓</em>Intensity</div>
+<div class="el big yel" style="top:1080px" data-in="45.96" data-out="999" data-a="pop">STEAL THIS<br>FOR YOUR POST</div>
+<div class="el mid" style="top:1400px" data-in="47.64" data-out="999" data-a="up">Follow <span class="yel">@admates.agency</span></div>
+
+<div id="dots"><div></div><div></div><div></div></div>
+<div class="el brand">Source: @garyvee · breakdown by AdMates</div>
+<script>
+const els=[...document.querySelectorAll('.el[data-in]')];
+const ease=x=>1-Math.pow(1-Math.min(Math.max(x,0),1),3);
+const back=x=>{x=Math.min(Math.max(x,0),1);const c=1.70158;return 1+(c+1)*Math.pow(x-1,3)+c*Math.pow(x-1,2);};
+window.render=function(t){
+  const b=ease((t-0.5)/1.0);
+  document.getElementById('bg').style.filter=`blur(${b*22}px) brightness(${1-b*0.35})`;
+  document.getElementById('bg').style.transform=`scale(${1.05+t*0.002})`;
+  document.getElementById('dim').style.opacity=0.35+b*0.65;
+  for(const e of els){
+    const i=+e.dataset.in,o=+e.dataset.out,a=e.dataset.a;
+    const pin=(t-i)/0.45, pout=(t-o)/0.3;
+    let op=ease(pin)*(1-ease(pout)); if(t<i) op=0;
+    let tr='';
+    if(a==='up') tr=`translateY(${(1-ease(pin))*60}px)`;
+    if(a==='left') tr=`translateX(${(1-ease(pin))*-120}px)`;
+    if(a==='pop') tr=`scale(${t<i?0.6:0.6+0.4*back(pin)})`;
+    e.style.opacity=op; e.style.transform=tr;
+  }
+  document.getElementById('views').textContent=(4.9*ease((t-1.07)/1.6)).toFixed(1)+'M';
+  document.getElementById('mult').textContent=Math.round(49*ease((t-3.51)/1.3))+'x';
+  const a=1-0.8*ease((t-24.3)/1.6), anx=document.getElementById('anx');
+  anx.style.width=(a*100)+'%'; anx.style.background=a>0.5?'#ff5a5a':'#46e39a';
+  const s=t<9.4?-1:t<19.9?0:t<31?1:t<43.3?2:3;
+  [...document.querySelectorAll('#dots div')].forEach((d,k)=>d.className=(k===s||s===3)?'on':'');
+};
+render(0);
+</script>
+</body></html>

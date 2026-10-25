@@ -16,6 +16,8 @@ Scan dataset (2026-10-25): HhEdMi5bh58e6ymKe
 - Reel 2 DONE: ryanserhant De2esAVifwW -> reel2_final.mp4 (58s). Pause 6.5s on "Nvm" typing dots. EL flow OhqRHeaJ4wFY44FUp1Mw. Not in Metricool yet.
 - Reel 3 DONE: danmartell DexM0OAhW7O -> reel3_final.mp4 (55s). Pause 3.9s on kid 'SWEET'. EL flow LmJdIa7nzo6vGnH8cH8V. Not in Metricool yet.
 - Reel 4 DONE: garyvee DevLYE2jbh6 -> reel4_final.mp4 (52s). Pause 7.2s on 'Only 2 things'. EL flow 4OheBHsGxQgteyATzIYd. Not in Metricool yet.
+- Reel 5 DONE: garyvee DesHrTfEvMb -> reel5_final.mp4 (56s). Pause 6.0s on 'don't realize'. EL flow 2Xq9q3wJb9ZUHSkLU69q. Not in Metricool yet.
+- Original queue exhausted -> next: fresh Apify scan with a new creator set.
 
 ## Music (user request)
 Trending phonk from Patrick Jane edits: PROS BANDIDO, OMNIUM, ABYS5, ETERNITY, EXITIUM, Pyro (slowed) ZERTAL.
@@ -54,3 +56,10 @@ Credit: @danmartell
 Follow @admates.agency for a new breakdown every day.
 Credit: @garyvee
 #marketing #hooks #psychology #contentstrategy #socialmediamarketing
+
+## Caption reel 5
+"How old are you?" "23." 4.9M views from one hallway conversation. Here's the psychology 👇
+1) The self-reference effect  2) Relief  3) High arousal
+Send this to someone who needs to slow down. Follow @admates.agency for a new breakdown every day.
+Credit: @garyvee
+#marketing #motivation #psychology #contentstrategy #socialmediamarketing
